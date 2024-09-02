@@ -1,7 +1,3 @@
-Aqui está a versão ampliada da descrição, incluindo o motivo da criação do padrão **State** e um exemplo real para destacar sua aplicação prática:
-
----
-
 # Padrão de Design State em Java
 
 Este repositório contém um exemplo simples de como utilizar o padrão de design **State** em Java. Além disso, inclui uma implementação alternativa sem o uso desse padrão para comparar as duas abordagens e demonstrar as vantagens de usar o padrão **State**.
@@ -65,13 +61,3 @@ Para fins de comparação, também foi fornecida uma implementação alternativa
    - Código mais compacto em uma única classe, mas menos organizado.
    - Adicionar novos estados é mais complexo e propenso a erros, pois requer modificações em múltiplas partes do código.
    - Uso intensivo de condicionais (`switch-case`), que pode tornar o código difícil de manter e entender.
-
-### Exemplo Real de Aplicação do Padrão State
-
-Um exemplo clássico do uso do padrão **State** é o desenvolvimento de um sistema de autorização para usuários. Considere um sistema bancário onde um usuário pode estar em diferentes estados de autorização, como "Não Autenticado", "Autenticado" ou "Autorizado como Administrador". Dependendo do estado do usuário, o sistema deve permitir ou restringir o acesso a diferentes funcionalidades. Usando o padrão **State**, cada estado de autorização é representado por uma classe separada, e o comportamento do sistema é alterado dinamicamente conforme o usuário muda de estado.
-
-Este padrão é amplamente utilizado em aplicativos que exigem alta flexibilidade e clareza na definição e gerenciamento de estados complexos e mutáveis, como jogos, sistemas bancários, interfaces gráficas, e muitos outros.
-
---- 
-
-Com essa descrição ampliada, você pode explicar não apenas o que é o padrão **State** e como ele funciona, mas também por que foi criado, suas vantagens em comparação com abordagens alternativas, e um exemplo real de sua aplicação prática. Isso ajudará a audiência a entender a importância e os benefícios do uso do padrão **State** em projetos de software.
